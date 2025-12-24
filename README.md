@@ -1,4 +1,4 @@
-# Remix-of-ThumNew Documentation
+# ThumNew Documentation
 
 This documentation provides an overview of the `remix-of-thumbnew-main` project, describing the structure, components, and configuration files included in the project.
 
