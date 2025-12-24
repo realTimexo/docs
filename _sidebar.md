@@ -1,7 +1,9 @@
-- Get started
-  - [Start](README.md)
-- Guides
-  - [Installation](install.md)
-  - [API](api.md)
-- Other
-  - [FAQ](faq.md)
+- 📘 Overview
+  - [Einführung](README.md)
+
+- 🧠 Product
+  - [Thumbnails](thumbnails.md)
+  - [Features](features.md)
+
+- ⚙️ API
+  - [API Docs](api.md)
