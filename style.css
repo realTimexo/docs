@@ -1,0 +1,119 @@
+:root {
+  --primary: #f44034;
+  --primary-text: #ffffff;
+
+  --secondary: #06d0f9;
+  --secondary-text: #131720;
+
+  --accent: #cc66ff;
+  --accent-text: #ffffff;
+
+  --bg: #131720;
+  --text: #fafafa;
+
+  --card: #1d212b;
+  --card-text: #fafafa;
+
+  --popover: #1d212b;
+  --popover-text: #fafafa;
+
+  --muted: #363d49;
+  --muted-text: #b3b3b3;
+
+  --border: #2b303b;
+  --focus: #f44034;
+}
+
+/* Global */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* Sidebar */
+.sidebar {
+  background: var(--card);
+  border-right: 1px solid var(--border);
+}
+
+.sidebar a {
+  color: var(--muted-text);
+}
+
+.sidebar a.active {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+/* Content */
+.markdown-section {
+  background: transparent;
+}
+
+.markdown-section h1,
+.markdown-section h2,
+.markdown-section h3 {
+  color: var(--primary-text);
+}
+
+.markdown-section h2::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 40px;
+  background: var(--primary);
+  margin-top: 6px;
+}
+
+/* Links */
+.markdown-section a {
+  color: var(--secondary);
+}
+
+.markdown-section a:hover {
+  color: var(--accent);
+}
+
+/* Code */
+.markdown-section pre {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+.markdown-section code {
+  background: var(--muted);
+  color: var(--accent-text);
+  padding: 2px 6px;
+  border-radius: 6px;
+}
+
+/* Blockquotes */
+.markdown-section blockquote {
+  border-left: 4px solid var(--primary);
+  background: var(--card);
+  color: var(--card-text);
+}
+
+/* Tables */
+.markdown-section table {
+  border-collapse: collapse;
+}
+
+.markdown-section th,
+.markdown-section td {
+  border: 1px solid var(--border);
+}
+
+/* Buttons (Docsify Plugins etc.) */
+button {
+  background: var(--primary);
+  color: var(--primary-text);
+  border-radius: 10px;
+  border: none;
+}
+
+button:focus {
+  outline: 2px solid var(--focus);
+}
