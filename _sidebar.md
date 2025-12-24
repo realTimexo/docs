@@ -1,0 +1,7 @@
+- Get started
+  - [Start](README.md)
+- Guides
+  - [Installation](install.md)
+  - [API](api.md)
+- Other
+  - [FAQ](faq.md)
